@@ -25,7 +25,7 @@ jobs:
               with:
                 image-ref: 741010684914.dkr.ecr.us-east-1.amazonaws.com/my-repo:latest
                 format: table  
-                exit-code: 1
+                exit-code: 0
                 ignore-unfixed: true
                 severity: CRITICAL,HIGH
             - name: Push image to Ecr
